@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.ts",
   "dependencies": {
+    "@react-native-community/netinfo": "^12.0.1",
     "expo": "~58.0.17",
+    "expo-sqlite": "^58.0.13",
     "expo-status-bar": "~58.0.4",
     "react": "19.3.0",
     "react-native": "0.88.0"
@@ -16,7 +18,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "lint": "expo lint"
   },
   "private": true
 }
